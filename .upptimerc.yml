@@ -1,36 +1,56 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: benjamin-hx
+repo: statuspage
 
 sites:
+  - name: Holiday Extras
+    url: https://www.holidayextras.com
   - name: Google
     url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Ouline
+    url: https://holidayextras.getoutline.com
+  - name: Slack
+    url: https://slack.com
+  - name: Jira
+    url: https://holidayextras.jira.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /statuspage
+  logoUrl: https://www.google.com/u/0/ac/images/logo.gif?uid=108578596573238218857&service=google_gsuite
+  name: Status Page
+  introTitle: "Uptime monitor and status page"
+  introMessage: "Holiday Extras System Status: Stay informed about the current health of our services."
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  theme: ocean
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  url: "URL"
+  status: "Status"
+  history: "History"
+  responseTime: "Response Time"
+  uptime: "Uptime"
+  up: "🟩 Up"
+  degraded: "🟨 Degraded"
+  down: "🟥 Down"
+  responseTimeGraphAlt: "Response time graph"
+  ms: "ms"
+  responseTime: "Response time"
+  responseTimeDay: "24-hour response time"
+  responseTimeWeek: "7-day response time"
+  responseTimeMonth: "30-day response time"
+  responseTimeYear: "1-year response time"
+  uptime: "All-time uptime"
+  uptimeDay: "24-hour uptime"
+  uptimeWeek: "7-day uptime"
+  uptimeMonth: "30-day uptime"
+  uptimeYear: "1-year uptime"
+  liveStatus: "Live Status"
+  liveStatusHtmlComment: "<!--live status-->"
+  allSystemsOperational: "🟩 All systems operational"
+  degradedPerformance: "🟨 Degraded performance"
+  completeOutage: "🟥 Complete outage"
+  partialOutage: "🟧 Partial outage"
+  footer: Project Lab Day 08/04/2025
