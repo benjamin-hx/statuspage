@@ -26,7 +26,7 @@ status-website:
   introMessage: "Holiday Extras System Status: Stay informed about the current health of our services."
   navbar:
     - title: Status
-      href: /
+      href: /statuspage
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   theme: ocean
