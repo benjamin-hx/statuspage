@@ -8,6 +8,8 @@ sites:
     url: https://www.google.com
   - name: Outline
     url: https://holidayextras.getoutline.com
+  - name: Cloudflare
+    url: https://www.cloudflarestatus.com
   - name: Slack
     url: https://slack.com
   - name: Jira
