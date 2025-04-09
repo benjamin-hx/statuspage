@@ -6,7 +6,7 @@ sites:
     url: https://www.holidayextras.com
   - name: Google
     url: https://www.google.com
-  - name: Ouline
+  - name: Outline
     url: https://holidayextras.getoutline.com
   - name: Slack
     url: https://slack.com
